@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class UserController {
     @GetMapping("/details")
-    public String details(){
+    public String Details(){
         return "details";
     }
 }
